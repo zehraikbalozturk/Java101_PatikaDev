@@ -16,10 +16,10 @@ public class Main {
         System.out.print("Please,Enter the name and surname: ");
         nameSurname = scan.nextLine();
 
-        System.out.println("Please,Enter the birth of month");
+        System.out.println("Please,Enter the day of month");
         bMonth = scan.nextInt();
 
-        System.out.println("Please,Enter the birth of day");
+        System.out.println("Please,Enter the day of birth");
         bDay = scan.nextInt();
         if (bMonth == 1) {
             if (bDay >= 1 && bDay <= 31) {
